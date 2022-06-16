@@ -16,20 +16,20 @@ int main() {
 
 Let's break down the code above to undestand each part:
 
-> #include <stdio.h>
+`#include <stdio.h>`
 
 This one imports/includes the header file stdio.h which contains some of the most used function in c programming, like the **printf()** which prints a value to the console.
 
-> int main(){}
+`int main(){}`
 
 The **int** keyword defines the data type that will be returned from the **main** function, the curly brackets **{}** are used to contain the code that will be written inside the main function.
 
-> printf("Hello World");
+`printf("Hello World");`
 
 This line of code is basicaly printing **Hello World** to the console using the **printf()** function.
 Note that at the end of the line we've put a semicolon **;** to indicate the end of the line.
 
-> return 0;
+`return 0;`
 
 The use of this line is indicating the end of a c program by returning 0 from the main function.
 
@@ -61,7 +61,7 @@ To declare a variable we need to define it's type and then add an identifier(nam
 
 Let's take defining an integer for example :
 
-> int my_number = 42;
+`int my_number = 42;`
 
 "int" is the variable type, "my_number" is the identifier, "=" is the assignment operator, and "42" is the value.
 
@@ -80,7 +80,7 @@ Let take "my_number" for example, it's an integer that we wa want to print to th
 
 In the code above we've used the **printf()** function to print a string to the console.
 
-> printf("My number is: %d", my_number);
+`printf("My number is: %d", my_number);`
 
 The "%" character is used to specify the type format which in ths case is **d** (decimal).
 The **%d** will be replaced by the variable we add after the string which is "my_number" in this case.
@@ -121,7 +121,7 @@ Example
 **! in Division operations we need to convert the Divisor into a float!**
 Example :
 
-> float result = a/(float)b;
+`float result = a/(float)b;`
 
 ## Augmented Arithmetic Operators
 
@@ -129,10 +129,10 @@ It's used to write less code and avoid repition (respecting the DRY **Don't Repe
 
 Example :
 
-> a = a + b ;
+`a = a + b ;`
 
 Can be :
 
-> a += b;
+`a += b;`
 
 It's valid for all the arithmetic operators

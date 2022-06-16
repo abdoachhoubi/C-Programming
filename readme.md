@@ -5,13 +5,13 @@ Whether you're just getting started in C or you just need an organized reference
 
 ## Table of content
 
-### [Course Notes](https://github.com/abdoachhoubi/clang)
+### Course Notes
 
-- [Basics of C](https://github.com/abdoachhoubi/clang)
+- [Basics of C](https://github.com/abdoachhoubi/C-Programming/tree/main/Course%20Notes/C%20Basics)
 - [C Advanced](https://github.com/abdoachhoubi/clang)
 - [C Behind The Scenes](https://github.com/abdoachhoubi/clang)
 
-### [Challenges](https://github.com/abdoachhoubi/clang)
+### Challenges
 
 These challenge are taken from several ressources, such as Hackerank, Codewars...etc
 
